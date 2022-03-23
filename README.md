@@ -3,23 +3,24 @@
 ## Entornos de desarrollo
 ## IES Pere Maria
 
-**GESTI”N DE ESTUDIANTES-EMPLEADOS**
+**GESTI√ìN DE ESTUDIANTES-EMPLEADOS**
 
-![UML ESTUDIANTES-EMPLEADOS](/assets/images/uml.png)
-Observa el esquema de clases de arriba. Trata de recoger una estructura formada por trabajadores de diversas categorÌas (obreros, trabajadores cualificados, becarios y jefes de departamento). Entiende este esquema como una propuesta para desarrollar la aplicaciÛn basada en objetos que se especifica a continuaciÛn. Tienes libertad para modificarlo de forma razonada en funciÛn de tu propia interpretaciÛn de la aplicaciÛn, y de las necesidades que se planteen en la especificaciÛn.
+![UML ESTUDIANTES-EMPLEADOS](https://github.com/Cucala/ED_Ejercicio_26/blob/6ff7dd6c7d0e385c0aa51088355a543359931bf8/assets/uml.png)
 
-**ESPECIFICACI”N:**
+Observa el esquema de clases de arriba. Trata de recoger una estructura formada por trabajadores de diversas categor√≠as (obreros, trabajadores cualificados, becarios y jefes de departamento). Entiende este esquema como una propuesta para desarrollar la aplicaci√≥n basada en objetos que se especifica a continuaci√≥n. Tienes libertad para modificarlo de forma razonada en funci√≥n de tu propia interpretaci√≥n de la aplicaci√≥n, y de las necesidades que se planteen en la especificaci√≥n.
 
-- Todas las clases tienen un constructor que admite todos sus campos como par·metros
-- Crea una clase abstracta para empleados en la que informacion () ser· un mÈtodo que devolver· un texto indicando:
-	- para los becarios su carrera y departamento: > ìCarrera: BiologÌa, Departamento: Cienciasî
-	- En el caso de cualificados titulaciÛn y departamento, por ejemplo: > ìTitulaciÛn: FÌsico, Departamento: Cienciasî
-	- Y en el caso de obreros su destino de trabajo y el Precio de las horas extra: > ìDestino: Alicante, Precio Horas Extra: 80Äî
-- Crea una interface para Estudiantes. Dispondr· de la especificaciÛn de 3 mÈtodos:
-	- Ex·menes: Devolver· una lista con 3 notas del estudiante, a partir de las cuales se calcular· la nota media
-	- Universidad: Proporcionar· el nombre de la universidad a la que pertenece el alumno
-	- NotaMedia: Calcula la media numÈrica (con un decimal) de las 3 notas que disponemos del alumno.
-- La aplicaciÛn mostrar· una lista (emplea, por ejemplo, el control listview) con el nombre y los apellidos de los empleados y cada vez que se seleccione un elemento de la lista se rellenar·n textbox con toda la informaciÛn almacenada del empleado.
-- Existir· un botÛn aÒadir que permitir· crear un empleado del tipo que se desee, permitiendo rellenar todos los datos que permita dicho tipo.
-- TambiÈn se presentar· un botÛn eliminar para borrar el usuario seleccionado.
-- Ten en cuenta toda la funcionalidad implÌcita y la usabilidad que debe presentar la aplicaciÛn. Emplea todos los conocimientos que hemos ido adquiriendo para personalizar y mejorar tu aplicaciÛn, por ejemplo, øpodrÌas utilizar alg˙n men˙ contextual? øquerrÌas aÒadir y controlar alguna restricciÛn? ødar opciones al usuario, por ejemplo, para establecer una serie de universidades que sean las ˙nicas que pueda elegir?
+**ESPECIFICACI√ìN:**
+
+- Todas las clases tienen un constructor que admite todos sus campos como par√°metros
+- Crea una clase abstracta para empleados en la que informacion () ser√° un m√©todo que devolver√° un texto indicando:
+	- para los becarios su carrera y departamento: > ‚ÄúCarrera: Biolog√≠a, Departamento: Ciencias‚Äù
+	- En el caso de cualificados titulaci√≥n y departamento, por ejemplo: > ‚ÄúTitulaci√≥n: F√≠sico, Departamento: Ciencias‚Äù
+	- Y en el caso de obreros su destino de trabajo y el Precio de las horas extra: > ‚ÄúDestino: Alicante, Precio Horas Extra: 80‚Ç¨‚Äù
+- Crea una interface para Estudiantes. Dispondr√° de la especificaci√≥n de 3 m√©todos:
+	- Ex√°menes: Devolver√° una lista con 3 notas del estudiante, a partir de las cuales se calcular√° la nota media
+	- Universidad: Proporcionar√° el nombre de la universidad a la que pertenece el alumno
+	- NotaMedia: Calcula la media num√©rica (con un decimal) de las 3 notas que disponemos del alumno.
+- La aplicaci√≥n mostrar√° una lista (emplea, por ejemplo, el control listview) con el nombre y los apellidos de los empleados y cada vez que se seleccione un elemento de la lista se rellenar√°n textbox con toda la informaci√≥n almacenada del empleado.
+- Existir√° un bot√≥n a√±adir que permitir√° crear un empleado del tipo que se desee, permitiendo rellenar todos los datos que permita dicho tipo.
+- Tambi√©n se presentar√° un bot√≥n eliminar para borrar el usuario seleccionado.
+- Ten en cuenta toda la funcionalidad impl√≠cita y la usabilidad que debe presentar la aplicaci√≥n. Emplea todos los conocimientos que hemos ido adquiriendo para personalizar y mejorar tu aplicaci√≥n, por ejemplo, ¬øpodr√≠as utilizar alg√∫n men√∫ contextual? ¬øquerr√≠as a√±adir y controlar alguna restricci√≥n? ¬ødar opciones al usuario, por ejemplo, para establecer una serie de universidades que sean las √∫nicas que pueda elegir?
