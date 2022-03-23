@@ -25,6 +25,6 @@ Observa el esquema de clases de arriba. Trata de recoger una estructura formada 
 - También se presentará un botón eliminar para borrar el usuario seleccionado.
 - Ten en cuenta toda la funcionalidad implícita y la usabilidad que debe presentar la aplicación. Emplea todos los conocimientos que hemos ido adquiriendo para personalizar y mejorar tu aplicación, por ejemplo, ¿podrías utilizar algún menú contextual? ¿querrías añadir y controlar alguna restricción? ¿dar opciones al usuario, por ejemplo, para establecer una serie de universidades que sean las únicas que pueda elegir?
 
-***Primero DAW Semipresencial
-Entornos de desarrollo
-IES Pere Maria***
+													***Primero DAW Semipresencial
+													Entornos de desarrollo
+													IES Pere Maria***
