@@ -13,9 +13,12 @@ Observa el esquema de clases de arriba. Trata de recoger una estructura formada 
 
 - Todas las clases tienen un constructor que admite todos sus campos como parámetros
 - Crea una clase abstracta para empleados en la que informacion () será un método que devolverá un texto indicando:
-	- para los becarios su carrera y departamento: > “Carrera: Biología, Departamento: Ciencias”
-	- En el caso de cualificados titulación y departamento, por ejemplo: > “Titulación: Físico, Departamento: Ciencias”
-	- Y en el caso de obreros su destino de trabajo y el Precio de las horas extra: > “Destino: Alicante, Precio Horas Extra: 80€”
+	- para los becarios su carrera y departamento:
+		> “Carrera: Biología, Departamento: Ciencias”
+	- En el caso de cualificados titulación y departamento, por ejemplo:
+		> “Titulación: Físico, Departamento: Ciencias”
+	- Y en el caso de obreros su destino de trabajo y el Precio de las horas extra:
+		> “Destino: Alicante, Precio Horas Extra: 80€”
 - Crea una interface para Estudiantes. Dispondrá de la especificación de 3 métodos:
 	- Exámenes: Devolverá una lista con 3 notas del estudiante, a partir de las cuales se calculará la nota media
 	- Universidad: Proporcionará el nombre de la universidad a la que pertenece el alumno
