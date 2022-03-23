@@ -1,7 +1,7 @@
 # Ejercicio 26 Interfaces y clases abstractas
-														***Primero DAW Semipresencial
-														Entornos de desarrollo
-														IES Pere Maria***
+											***Primero DAW Semipresencial
+											Entornos de desarrollo
+											IES Pere Maria***
 
 **GESTIÓN DE ESTUDIANTES-EMPLEADOS**
 
