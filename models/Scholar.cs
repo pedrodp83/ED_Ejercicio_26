@@ -11,6 +11,7 @@ namespace Ej26.models
         private string degree;
         private string course;
         private string department;
+        private int numDesck;
        
         public Scholar(
             string dni,
